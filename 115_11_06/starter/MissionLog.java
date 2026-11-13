@@ -4,7 +4,7 @@ import java.util.Arrays;
 // 第五週只改日誌表示；行動規則與第四週完整輸出保持相同。
 public class MissionLog {
     public static void main(String[] args) {
-        int[] script = {1, 1, 2};
+        int[] script = {3, 9, 0};
         runMission(script, 20, 0);
     }
 
@@ -101,9 +101,9 @@ public class MissionLog {
         for (int i = 0; i < history.size(); i++) {
             MissionStep step = history.get(i);
             System.out.println("step " + (i + 1)
-                    + ": command=" + step.getCommand()
-                    + ", energy=" + step.getEnergy()
-                    + ", result=" + step.getResult());
+                + ": command=" + step.getCommand()
+                + ", result=" + step.getResult()
+                + ", energy=" + step.getEnergy());
         }
     }
 

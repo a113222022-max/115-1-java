@@ -6,18 +6,9 @@
 |---|---|
 | 使用工具／方式 | Cluade |
 | 目的與提問摘要 | 整理所有TODO的需求 |
-| 建議與本人處理 | 待填：採納／拒絕理由、本人修改內容 |
-| 本人實際驗證 | 待填：反例、修改前後與重測，可引用LAB_REPORT F3 |
+| 建議與本人處理 | 參考Cluade總結出的TODO需求，上傳.Java至Cluade後進行運行測試 |
+| 本人實際驗證 | 使用Cluade給出的代碼後顯示運行結果，在 VS Code Terminal 以 javac -encoding UTF-8 -d out *.java 編譯、java -cp out MissionLog 執行。{1,1,2}、初始 energy 20:回放為 energy 14/8/6,steps=3, ok=3, rejected=0, ignored=0,final energy=6, samples=5, actionCount=3 -> SUCCESS,battery=30.0。再跑{3,9,0}得20/0/0 RETURNED |
 
 AI 的正確宣稱不能代替編譯執行。觀看教師展示只能記「教師示範觀察」；本人複驗才可記本人測試。
 ![alt text](https://picgocloud.com/m/9a05d44b-0ab6-4e30-92b5-4ad18b8d7ad2.png)
-## 完整填寫範例（虛構／模擬）
-
-以下為教師自編，假設一名學生做過這些操作，只示範填寫方式，不是你或作者的真實對話／實測證據。提交時刪除本範例，改填上表。
-
-| 欄位 | 虛構填寫示範 |
-|---|---|
-| 使用工具／方式 | 教師模擬建議，未呼叫真實AI服務 |
-| 目的與提問摘要 | 判讀「把電池本身存進歷史，之後再讀能源」是否保留當時狀態 |
-| 建議與本人處理 | 我拒絕這項建議；兩個索引指向同一電池，不是兩個時間點的快照。在副本重現後，恢復每步建立StepCard並保存當時能源 |
-| 本人實際驗證 | SnapshotDemo錯誤副本印出19/19及same object=true；恢復後兩筆command/energy為1/14、3/19，current=19、separate records=true。再跑{1,1,2}得6/5/3 SUCCESS、{3,9,0}得20/0/0 RETURNED，完整輸出放LAB_REPORT F3 |
+![alt text](https://picgocloud.com/m/65b60d9a-eea8-4f5c-972d-3e82f378545e.png)
