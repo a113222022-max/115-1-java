@@ -7,7 +7,7 @@ public class MemberDemo {
     // main：程式進入點。建立兩位會員、購物、領取加贈，最後印出點數。
     public static void main(String[] args) {
         Member amy = new Member("Amy");
-        VipMember bob = new VipMember("Bob");
+        StandaloneVipMember bob = new StandaloneVipMember("Bob");
         amy.buy(120);
         bob.buy(85);
         bob.claimBonus();
