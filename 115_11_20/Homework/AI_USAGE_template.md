@@ -9,13 +9,11 @@
 
 | 使用目的與Prompt摘要（註明來源） | 採納／拒絕與理由 | 本人驗證：預期、實際、證據位置 | 最終修改與commit |
 |---|---|---|---|
-| 【虛構填寫示範，非本人實測】教師模擬HeavyRover，父類別欄位private就再宣告一份 | 拒絕：getter讀父類別狀態，drill卻改另一份 | 示範情境：預期鑽探後12/3/1/1，錯誤版卻20/0/0/1；完整紀錄應引用LAB_REPORT E | 示範：刪重複欄位、用protected方法、補停止與計次，再重測；填本人的[AI]與[fix]commit |
-| 待填 | 待填 | 待填 | 待填 |
+| 教師模擬HeavyRover，本機執行後與教師的結果進行比對 | 結果不符合：SpendEnergy()，drill()與scan()均出現問題 | 示範情境：terminal cd至指定目錄後執行java，結果可查看截圖 | 要求Github Copilot執行debug與解釋錯誤理由；最後填寫AI的fix commit並且執行 |
+| 使用Cluade執行最後的代碼監修，查看是否有bug需要修改 | 拒絕；經過Cluade的分析後，代碼與Github Copilot修改後的code幾乎一致 | 待填 | 待填 |
 
-真實AI對話另列一行，寫工具與採納理由，不把模擬回覆當成真實對話。記錄可引用LAB_REPORT的完整輸出，不重抄十五行。不得上傳個資、帳號密碼或未授權程式。
+![alt text](https://picgocloud.com/m/xg9se82n/459acf5a-39bd-4263-a2c3-02f78bb54c39.png)
 
-## 反思
+![alt text](https://picgocloud.com/m/xg9se82n/c0d17ad3-eeba-41e9-8504-b260c4801ece.png)
 
-- 哪個案例讓我發現「回成功卻沒更新正確狀態」：待填。
-- 我保留或拒絕AI建議的理由：待填。
-- 我仍無法解釋或尚未完成的部分：待填。
+![alt text](https://picgocloud.com/m/xg9se82n/da453241-1885-4f28-b69e-d64e7c0e1a9f.png)
