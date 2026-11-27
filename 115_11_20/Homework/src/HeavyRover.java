@@ -8,7 +8,7 @@ public class HeavyRover extends Rover {
     // DRILL_YIELD：鑽探一次取得的樣本份數。
     public static final int DRILL_YIELD = 3;
 
-    // HeavyRover 專屬的成功鑽探次數。
+    // HeavyRover 專屬的成功鑽探次數。只新增鑽探次數，不再宣告 energy、samples、actionCount
     private int drillcount;
 
     // 建構子：建立重型探測車；能源與樣本交給父類別 Rover 保存。
