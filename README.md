@@ -1,5 +1,6 @@
 2026-11-20 待做事項：
 All Done
+
 1：完成week 7 TODO
 
 2：完成AI_Usage_template.md
